@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 80.5%;
+    font-family: monospace;
+    background-color: #1f1f27;
+    color: aliceblue;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 10rem;
+    font-size: 20px;
+}
+
+.header .logo-side
+{
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo-side img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+}
+.run
+{
+    width: 7rem;
+    height: 3rem;
+    color: rgb(251, 236, 236);
+    background-color: rgb(9, 7, 29);
+    border: none;
+    border-radius: 5px;
+}
+
+.run:hover
+{
+    background-color: rgb(17, 13, 56);   
+}
+
+.editor
+{
+    margin: 1rem 10rem;
+    height: 50vh;
+}
+
+.io{
+    display: flex;
+}
+.input, .output{
+    margin-top: 2rem;
+    width: 50%;
+}
+.input-header
+{
+    margin-left: 10rem;
+    font-weight: bold;
+}
+
+#input
+{
+    margin:2rem 10rem;
+    width: 80%;
+    height: 15rem;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.output-header
+{
+    font-weight: bold;
+}
+
+.code_output
+{
+    margin-top:2rem;
+    width: 84%;
+    height: 15rem;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
