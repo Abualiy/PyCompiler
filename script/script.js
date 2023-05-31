@@ -16,7 +16,7 @@ $("#run").click(function(){
             input: inputs.val()
         },
         success: function(response){
-            $(".code_output").text("hello >" + response);
+            $(".code_output").text("$ " + response);
         }
     })
 })
