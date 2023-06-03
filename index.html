@@ -1,38 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PyCompiler</title>
     <link rel="shortcut icon" href="image/icon.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="landing.css">
 </head>
-<body>
-    <div class="header">
-        <div class="logo-side">
-            <img src="image/icon.jpeg" alt="">
-            <h1>PyCompiler</h1>
-        </div>
-        <button class="run" id="run">Run</button>
-    </div>
-    <div class="editor" id="editor"></div>
-    <div class="io">
-        <div class="input">
-            <h3 class="input-header">Input</h3>
-            <textarea name="input" id="input"></textarea>
-        </div>
-        <div class="output">
-            <h3 class="output-header">Output</h3> 
-            <div class="code_output" id="code_output"></div> 
-        </div>
-    </div>  
 
-    <script src="script/library/ace.js"></script>
-    <script src="script/library/theme-monokai.js"></script>
-    <script src="script/jquery-3.6.0.min.js"></script>
-    <script src="script/script.js"></script>
-    
+<body>
+    <header>
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#self">Self</a></li>
+        </ul>
+
+    </header>
+
+    <section class="intro" id="intro">
+        <ul>
+            <li><img src="image/icon.jpeg" alt="logo"></li>
+            <li>
+                <h1>PyCompiler</h1>
+            </li>
+            <li>
+                <p>PyCompiler is a simple python compiler web application!</p>
+            </li>
+            <li><a href="compiler.html" class="get">Get PyCompiler</a></li>
+        </ul>
+    </section>
+
+    <section class="feature" id="feature">
+        <h1>Features</h1>
+        <div class="container">
+            <div class="deteil">
+                <p>Compiling simple python codes</p>
+                <p>Can take input from input panel</p>
+                <p>Display on output panel</p>
+            </div>
+            <div class="image">
+                <img src="image/phoneVersion.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1>About</h1>
+        <p>The desire to create a large web-based compiler inspired me for this project.<br>This is the beginning and
+            is a portfolio project for Holberton School. <a href="https://intranet.alxswe.com/projects/312">here</a></p>
+        <p>Developer: Akram Mukhtar <a href="https://www.linkedin.com/in/akrem-muktar">LinkedIn</a> <a
+                href="https://github.com/Abualiy">Github</a></p>
+        <p>You can view the <a href="https://github.com/Abualiy/PyCompiler">project.</a></p>
+    </section>
+    <section class="self" id="self">
+        <h1>Self</h1>
+        <video controls src="image/pycompiler.mp4"></video>
+    </section>
+    <footer>
+        <p>&copy;2023 June: By Akrem Muktar</p>
+    </footer>
 </body>
+
 </html>

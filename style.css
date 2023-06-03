@@ -6,7 +6,7 @@
 
 html
 {
-    font-size: 80.5%;
+    font-size: 70.5%;
     font-family: monospace;
     background-color: #1f1f27;
     color: aliceblue;
@@ -29,14 +29,14 @@ html
 
 .header .logo-side img
 {
-    width: 5rem;
-    height: 5rem;
+    width: 5vw;
+    height: auto;
     border-radius: 100%;
 }
 .run
 {
-    width: 7rem;
-    height: 3rem;
+    width: 7vh;
+    height: auto;
     color: rgb(251, 236, 236);
     background-color: rgb(9, 7, 29);
     border: none;
@@ -63,6 +63,7 @@ html
 }
 .input-header
 {
+    width: 100%;
     margin-left: 10rem;
     font-weight: bold;
 }
@@ -89,4 +90,21 @@ html
     height: 15rem;
     border: 2px solid #ffffff;
     color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 60.5%;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    html{
+        font-size: 40.5%;
+    }
+}
+@media screen and (max-width: 420px) {
+    html{
+        font-size: 20.5%;
+    } 
 }
