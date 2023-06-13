@@ -21,5 +21,4 @@
     $output = shell_exec($commond);
     echo $output;
 
-
 ?>

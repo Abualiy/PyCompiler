@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <title>PyCompiler</title>
     <link rel="shortcut icon" href="image/icon.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
+    <!--header for the compiler interface -->
     <div class="header">
         <div class="logo-side">
             <img src="image/icon.jpeg" alt="">
@@ -17,22 +20,28 @@
         </div>
         <button class="run" id="run">Run</button>
     </div>
+    <!--editor panel for python compiler-->
     <div class="editor" id="editor"></div>
+    <!--input output section-->
     <div class="io">
+        <!--input conteiner-->
         <div class="input">
             <h3 class="input-header">Input</h3>
             <textarea name="input" id="input"></textarea>
         </div>
+        <!--output container-->
         <div class="output">
-            <h3 class="output-header">Output</h3> 
-            <div class="code_output" id="code_output"></div> 
+            <h3 class="output-header">Output</h3>
+            <div class="code_output" id="code_output"></div>
         </div>
-    </div>  
+    </div>
 
+    <!--jquery and theme library link-->
     <script src="script/library/ace.js"></script>
     <script src="script/library/theme-monokai.js"></script>
     <script src="script/jquery-3.6.0.min.js"></script>
     <script src="script/script.js"></script>
-    
+
 </body>
+
 </html>
